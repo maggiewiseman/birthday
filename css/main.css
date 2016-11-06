@@ -94,8 +94,68 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*** Global Styles ***/
+body {
+  width: 100%;
+  background-color: #4432B9;
+  color: #fff;
+  font-family: 'Myriad Pro';
+}
 
 
+
+li a {
+  text-decoration: none; 
+  color: #fff;
+}
+
+
+/*** Nav bar styles for mobile ****/
+
+nav {
+  width: 100%;  
+}
+
+nav ul {
+  height: 25px;
+  width: 100%;
+  padding: 0; 
+  margin: 0 auto;
+}
+
+nav li {
+  padding: 4% 0;
+}
+
+.nav-btn {
+  display: block;
+  float: left;
+  width: 33%;
+  text-align: center;
+  background-color: #000;
+    color: #fff;
+    background-image: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5) 51%); 
+  border-left: 1px solid gray;
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 2%;
+  
+  background: -webkit-linear-gradient(#fff, #EDEDED);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+/*** main section styles for mobile ***/
+main {
+  width: 90%;
+}
+
+footer {
+  width: 90%;
+}
 
 
 
