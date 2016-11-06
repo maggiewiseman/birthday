@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Birthday Planner</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,7 +20,35 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <header>
+          <nav>
+            <ul>
+              <li class="nav-btn" id="search"><a href="#">Search</a></li>
+              <li class="nav-btn" id="list"><a href="#">List</a></li>
+              <li class="nav-btn" id="search"><a href="#">Back</a></li>
+            </ul>
+           
+          </nav>
+          <h1>Birthday Planner</h1>
+        </header>
+        <main>
+          <section>
+            <form>    
+              <label>Find: </label>
+              <input type="text"><br>
+              <label>Near: </label>
+              <input type="text"><br>
+              <button type="submit">FIND</button>
+            </form>
+          </section>
+          <section>
+            <ul>
+              <li><a href="#">Venues</a></li>
+              <li><a href="#">Entertainment</a></li>
+              <li><a href="#">Catering</a></li>
+            </ul>    
+          </section>
+        </main>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
