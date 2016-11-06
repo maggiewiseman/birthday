@@ -141,20 +141,40 @@ nav li {
 header h1 {
   text-align: center;
   padding-top: 2%;
-  
-  background: -webkit-linear-gradient(#fff, #EDEDED);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
 }
 
 /*** main section styles for mobile ***/
 main {
   width: 90%;
+  padding: 0 5%;
 }
 
+label {
+  width: 25%;
+  background-color: #27ae60;
+  padding: 3% 2%;
+  margin: 1% 0;
+  letter-spacing: 1px;
+  border: 1px solid #39299E;
+}
+
+input {
+  width: 77%;
+  margin: 1% 0;
+  padding: 2% 0;
+}
+
+button {
+  width: 100%;
+  background-color: #DD2AB2;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 2%;
+}
+/*** footer styles for mobile ***/
 footer {
   width: 90%;
+  text-align: center;
 }
 
 
